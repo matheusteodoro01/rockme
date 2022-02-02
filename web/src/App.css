@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #4ab955;
+  --secondary-color: #ff3d9a;
+  --title-color: #ffffff;
+  --text-color: #a3aeb4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+body {
+  background-color: #161617;
+  background-image: url("./assets/quadrado-bg.svg");
+  background-repeat: repeat;
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+}
+
+body,
+input,
+button {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-color);
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+button {
+  font-variant: small-caps;
+  font-style: normal;
+  font-size: 16px;
+  text-transform: lowercase;
+}
